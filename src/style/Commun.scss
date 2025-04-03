@@ -1,1 +1,11 @@
-@import "Variables.scss";
+@use 'Variables.scss' as*;
+
+/*Réinitialisation des marges et padding par defaut
+valable avec toutes les contus, rétirer le petit espaces devant les éléments au début  
+*/
+// Cela supprime les espaces par défaut partout.
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

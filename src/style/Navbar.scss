@@ -1,7 +1,80 @@
 @use 'Variables.scss' as*;
+@use 'Commun.scss' as*;
 
-.ContainerNavbar{
+.header{
 
     background-color: $twoSecondaryColor;
+    position: absolute;  
+    width: 100%; 
+    position: fixed;
+    //z-index:999;
+    height:5%;
+   
 
-};
+    .navContainer{
+
+        background-color: $twoPrimaryColor;
+        display: flex; 
+        height:100%;
+        align-items: center;
+        text-align: center;
+        color:$oneSecondaryColor;
+        
+        
+        //position: absolute;
+        //position: fixed;
+        //width: 100%;
+        //z-index: 999;
+        
+    
+        .navLogo{
+            background-color: red;
+            width:14%;
+
+            .h2{
+
+                font-family: "Fira Code", monospace;
+                font-optical-sizing: auto;
+                //font-weight: <weight>;
+                font-style: normal;
+            }
+
+            //display: flex;
+        };
+    
+        .navList {
+            background-color: rgb(0, 255, 225);
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            width: 20%;
+            //overflow: hidden;
+            
+            .items{
+                background-color: orange;
+                
+            }
+
+
+            /*background-color: rgb(0, 255, 225);
+            list-style: none; 
+            display: flex ; 
+            justify-content: space-between; 
+    */
+    
+        }
+
+        .navContact{
+
+            background-color: red;
+            width: 8%;
+            display: flex;
+            margin-left: auto;
+            
+            
+
+        }
+    };
+
+}
+
