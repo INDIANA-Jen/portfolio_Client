@@ -9,13 +9,6 @@ function Navbar() {
     <>
       <div className="header">
         <div className="navContainer">
-          {/*1.Partie Navbar logo */}
-          <div className="navLogo">
-            
-              fmichael weaver
-
-          </div>
-
           {
             /* 1. Partie liste de la Navbar
             * Commencement : d'abord créer une liste avec <ul><li></li></ul>.
@@ -24,19 +17,29 @@ function Navbar() {
             */
           }
           <ul className="navList">
-            <li>
-              <Link className="items">_hello</Link>
+            <li className="yourname">
+                {/*1.Partie Navbar logo */}
+                  <Link className="contyourname">michael-weaver</Link>
             </li>
-            <li>
-              <Link className="items">_about-me</Link>
+            <li className="items">
+                <Link>_hello</Link>
+
             </li>
-            <li>
-              <Link className="items"> _projects</Link>
+            <li className="items">
+                <Link>_about-me</Link>
+            </li>
+            <li className="items">
+                <Link> _projects</Link>
+            </li >
+            <li  className="navnull">
+                <Link></Link>
+            </li>
+            <li  className="navContact">
+              <div>
+                <Link>_contact-me</Link>
+              </div>
             </li>
           </ul>
-          <div className="navContact">
-            _contact-me
-          </div>
           
         </div>
       </div>
