@@ -1,5 +1,6 @@
 import React from "react";
-import '../style/Hello.scss';
+//import '../style/Hello.scss';
+import '../styleHello/Hello.scss'
 
 function Hello() {
   
@@ -26,6 +27,9 @@ function Hello() {
             const githubLink = “https://github.com/example/url”
           </div>
         </div>
+
+    
+        
       
       </>
     )

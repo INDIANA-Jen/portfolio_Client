@@ -1,5 +1,6 @@
 import React from "react";
-import '../style/AboutMe.scss'
+//import '../style/AboutMe.scss'
+import '../styleAboutMe/AboutMe.scss';
 
 function AboutMe() {
   
@@ -32,4 +33,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default AboutMe;

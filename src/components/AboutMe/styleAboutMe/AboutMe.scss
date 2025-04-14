@@ -1,0 +1,6 @@
+//@use 'Variables.scss' as*;
+@use '../../../style/Variables.scss' as*;
+
+.ContainerAboutMe{
+    background-color: $threeAccentColor;
+}

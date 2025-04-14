@@ -1,0 +1,7 @@
+//@use 'Variables.scss' as*;
+@use '../../../style/Variables.scss' as*;
+
+.ContainerHello{
+    background-color: $threeSecondaryColor;
+    
+}

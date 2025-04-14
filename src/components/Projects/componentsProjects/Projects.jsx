@@ -1,5 +1,6 @@
 import React from "react";
-import '../style/Projects.scss';
+//import '../style/Projects.scss';
+import '../../Projects/styleProjects/Projects.scss';
 
 function Projects() {
   

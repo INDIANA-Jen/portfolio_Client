@@ -1,5 +1,6 @@
 import React from "react";
-import '../style/ContactMe.scss'
+//import '../style/ContactMe.scss'
+import '../styleContactMe/ContactMe.scss';
 
 function ContactMe() {
   

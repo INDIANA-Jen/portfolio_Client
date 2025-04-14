@@ -1,0 +1,7 @@
+//@use 'Variables.scss' as*;
+
+@use '../../../style/Variables.scss' as*;
+
+.ContainerContactMe{
+    background-color:$oneSecondaryColor ;
+}
