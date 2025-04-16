@@ -1,15 +1,16 @@
 //@use 'Variables.scss' as*;
 //@use 'Commun.scss' as*;
-@use '../../../style/Variables.scss' as*;
-@use '../../../style/Commun.scss' as*;
+@use '../../../styleCommon/Variables.scss' as*;
+@use '../../../styleCommon/Common.scss' as*;
 
 .header{
 
-    background-color: $twoSecondaryColor;
-    position: absolute;  
+    //background-color: $twoSecondaryColor;
+    //position: absolute;  
+    position: relative;
     width: 100%; 
     //position: fixed;
-    //z-index:999;
+    z-index: 999;
     height: 50px;
 
     .navContainer{

@@ -9,7 +9,10 @@ function Navbar() {
   
   return (
     <>
-      <div className="header">
+      <div className="header"> 
+        {/* il faut utiliser : balise header, ensuite footer, 
+        main{section: article, aside : pas esentiel
+        */}
         <div className="navContainer">
           {
             /* 1. Partie liste de la Navbar

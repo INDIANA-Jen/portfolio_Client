@@ -1,6 +1,7 @@
 import React from "react";
 //import '../style/AboutMe.scss'
-import '../styleAboutMe/AboutMe.scss';
+//import '../styleAboutMe/AboutMe.scss';
+import './AboutMeDisplay.scss'
 
 function AboutMe() {
   

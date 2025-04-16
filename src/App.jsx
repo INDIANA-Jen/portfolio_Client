@@ -2,15 +2,13 @@ import React from "react";
 
 import Navbar from './components/Navbar/componentsNavbar/Navbar';
 
-import Hello from "./components/Hello/componentsHello/Hello";
-import AboutMe from "./components/AboutMe/ComponentsAboutMe/AboutMe";
+import Hello from "./components/Hello/HelloDisplay";
+//import AboutMe from "./components/AboutMe/ComponentsAboutMe/AboutMe";
+import AboutMe from "./components/AboutMe/AboutMeDisplay";
 import Projects from "./components/Projects/componentsProjects/Projects";
 import ContactMe from './components/ContactMe/componentsContactMe/ContactMe';
 
-
-
-
-import './style/App.scss'
+import './styleCommon/App.scss'
 
 
 

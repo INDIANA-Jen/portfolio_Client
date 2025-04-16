@@ -1,0 +1,11 @@
+//@use 'Variables.scss' as*;
+//@use '../../styleCommon/Variables.scss' as*;
+@use '../../styleCommon/Variables.scss' as*;
+
+.ContainerHello{
+    background-color: $threeSecondaryColor;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+    
+}
